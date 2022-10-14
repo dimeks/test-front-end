@@ -1,0 +1,89 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*"
+      ],
+      "src/*": [
+        "src/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@theme": [
+        "src/ui/theme"
+      ],
+      "@theme/*": [
+        "src/ui/theme/*"
+      ],
+      "@routes": [
+        "src/routes"
+      ],
+      "@pages/*": [
+        "src/pages/*"
+      ],
+      "@hooks": [
+        "src/hooks"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@ui": [
+        "src/ui"
+      ],
+      "@ui/*": [
+        "src/ui/*"
+      ],
+      "@styles": [
+        "src/ui/styles"
+      ],
+      "@state": [
+        "src/state"
+      ],
+      "@state/*": [
+        "src/state/*"
+      ],
+      "@config": [
+        "src/config"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@helpers": [
+        "src/helpers"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@errors": [
+        "src/errors"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}

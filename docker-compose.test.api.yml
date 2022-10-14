@@ -1,0 +1,47 @@
+version: "3.3"
+services:
+  api:
+    container_name: icasei_api_test
+    build:
+      context: "./api"
+      dockerfile: docker/dev
+    command: bash -c "npm run typeorm:migration:run:test && npm run test:e2e && npm run test "
+    volumes:
+      - ./api:/usr/src
+    ports:
+      - "3131:3131"
+    tty: true
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - icasei-network-test
+
+  postgres:
+    container_name: icasei_postgres_test
+    image: "postgres:13"
+    logging:
+      options:
+        max-size: "5m"
+        max-file: "3"
+    volumes:
+      - ./data/postgres:/data/db
+    ports:
+      - "5433:5433"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U dev" ]
+      interval: 3s
+      timeout: 30s
+      retries: 10
+    environment:
+      POSTGRES_USER: "dev"
+      POSTGRES_PASSWORD: "dev"
+      POSTGRES_DB: "dev"
+      PGPORT: 5433
+    restart: always
+    networks:
+      - icasei-network-test
+
+networks:
+  icasei-network-test:
+    driver: bridge
