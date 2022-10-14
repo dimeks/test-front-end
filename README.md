@@ -7,7 +7,7 @@ Acesse o repositório da iCasei para ler os requisitos do teste: [Repositório i
 - **Wireframe fornecido pela iCasei:** [Desktop](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766) - [Mobile](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A237&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A237)
 
 
-- **Design criado por mim:** [Desktop](https://www.figma.com/proto/CTvXlBqW8zf9D0FsNqAaBD/iList?node-id=503%3A678&scaling=min-zoom&page-id=503%3A567&starting-point-node-id=503%3A634&hide-ui=1) - [Mobile](https://www.figma.com/proto/CTvXlBqW8zf9D0FsNqAaBD/iList?node-id=503%3A678&scaling=min-zoom&page-id=503%3A567&starting-point-node-id=503%3A634&hide-ui=1)
+- **Design criado por mim:** [Desktop](https://www.figma.com/proto/CTvXlBqW8zf9D0FsNqAaBD/iCasei?node-id=503%3A634&scaling=min-zoom&page-id=503%3A567&starting-point-node-id=503%3A634&hide-ui=1) - [Mobile](https://www.figma.com/proto/CTvXlBqW8zf9D0FsNqAaBD/iCasei?node-id=523%3A1322&scaling=min-zoom&page-id=523%3A916&starting-point-node-id=523%3A1322)
 
 
 
