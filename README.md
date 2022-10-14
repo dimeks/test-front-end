@@ -18,7 +18,7 @@ Acesse o repositório da iCasei para ler os requisitos do teste: [Repositório i
 
 ### Instalação
 
-Instale e o docker compose:
+Instale o docker e o docker compose:
 - [Docker](https://docs.docker.com/engine/install/ubuntu/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
@@ -51,7 +51,7 @@ docker-compose up -d
 *OBS: Utilize o seguinte comando para ver os logs: `docker-compose logs -f api` .*
 
 ***
-Crie a estrututura do banco de dados e adicione um usuário de teste utilizando o comando de migration. 
+Crie a estrututura do banco de dados utilizando o comando de migration. 
 ```bash
 cd api && npm run typeorm:migration:run:dev && cd ..
 
@@ -135,6 +135,6 @@ npm run test
 
 ***[WEBAPP] Teste e2e***
 ```bash
-cd ./WEBAPP
+cd ./webapp
 npm run test:e2e
 ```
